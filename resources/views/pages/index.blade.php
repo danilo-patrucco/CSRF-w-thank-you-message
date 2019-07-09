@@ -6,10 +6,7 @@
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-3">Hello, world!</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called a
-                jumbotron and three supporting pieces of content. Use it as a starting point to create something more
-                unique.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            <p>Let's make magic happen</p>
         </div>
     </div>
 
@@ -17,25 +14,38 @@
         <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-                    mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <h2>title 1</h2>
+                <p>Kyrie, rex genitor ingenite, vera essentia, eleyson.
+                    Kyrie, luminis fons rerumque conditor, eleyson.
+                    Kyrie, qui nos tuæ imaginis signasti specie, eleyson.
+                    Christe, Dei forma humana particeps, eleyson.
+                    Christe, lux oriens per quem sunt omnia, eleyson.
+                    Christe, qui perfecta es sapientia, eleyson.
+                    Kyrie, spiritus vivifice, vitæ vis, eleyson.
+                    Kyrie, utriqusque vapor in quo cuncta, eleyson.
+                    Kyrie, expurgator scelerum et largitor gratitæ quæsumus propter nostrasoffensas noli nos relinquere,
+                    O consolator dolentis animæ, eleyson
+                </p>
+
             </div>
             <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-                    mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <h2>title 2</h2>
+                <p>[Lord, King and Father unbegotten, True Essence of the Godhead, have mercy on us.
+                    Lord, Fount of light and Creator of all things, have mercy on us.
+                    Lord, Thou who hast signed us with the seal of Thine image, have mercy on us.
+                    Christ, True God and True Man, have mercy on us.
+                    Christ, Rising Sun, through whom are all things, have mercy on us.
+                    Christ, Perfection of Wisdom, have mercy on us.
+                    Lord, vivifying Spirit and power of life, have mercy on us.
+                    Lord, Breath of the Father and the Son, in Whom are all things, have mercy on us.
+                    Lord, Purger of sin and Almoner of grace, we beseech Thee abandon us not because of our Sins, O
+                    Consoler of the sorrowing soul, have mercy on us.]
+                </p>
             </div>
             <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-                    ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <h2>title 3</h2>
+                <p>One of my former coworkers used to sing kirie lenson when the program was not working, it was just
+                    really funny.</p>
             </div>
         </div>
 

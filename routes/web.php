@@ -24,11 +24,10 @@ Route::get('/contact', function () {
     return view('pages.contact');
 });
 
+
 Route::post('/contact', function () {
-
     $data = request() -> all();
-
-    echo "Email:" .$data['email'] . '<br>';
-    echo "Message:" .$data['message'];
+    $name = $data['name'];
+    return view('pages.thankyou')->with(compact('name'));
 
 });

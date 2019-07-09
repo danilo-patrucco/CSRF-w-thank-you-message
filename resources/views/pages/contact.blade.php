@@ -10,6 +10,10 @@
             <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="youremail@example.com">
         </div>
         <div class="form-group">
+            <label for="Name">Name</label>
+            <input name="name" type="name" class="form-control" id="exampleFormControlInput1" placeholder="Rod Example">
+        </div>
+        <div class="form-group">
             <label for="Message">Type in your message</label>
             <textarea name="message" class="form-control" id="message" rows="5"></textarea>
         </div>
