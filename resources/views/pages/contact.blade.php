@@ -2,8 +2,8 @@
 
 @section('content')
     <h1>Contact Page</h1>
-    <p class="lead">this is my about page</p>
-    <form action="/contact" method="post">
+    <p class="lead">this is my contact page</p>
+    <form role = "form" id = "contact-form" class="contact-form" method="POST" action="{{route('contact.store')}}">
         {{ csrf_field() }}
         <div class="form-group">
             <label for="email">Email address</label>

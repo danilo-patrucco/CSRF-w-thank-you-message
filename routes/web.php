@@ -12,10 +12,15 @@
 */
 
 
-Route::get('/', function () {
-    return view('pages.index');
-});
 
+
+Route::get('/', 'pagescontroller@home')->name('home');
+Route::get('/about', 'pagescontroller@about')->name('about');
+Route::get('/contact', 'pagescontroller@contact')->name('contact');
+Route::post('/contact', 'pagescontroller@store')->name('contact.store');
+Route::get('/thanks:{name}', 'pagescontroller@thanks')->name('thanks');
+
+/*
 Route::get('/about', function () {
     return view('pages.about');
 });
@@ -31,3 +36,4 @@ Route::post('/contact', function () {
     return view('pages.thankyou')->with(compact('name'));
 
 });
+*/
