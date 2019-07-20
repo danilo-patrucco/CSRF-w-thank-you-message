@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    function home (){
+    function index (){
         return view('pages.index');
     }
     function about (){
