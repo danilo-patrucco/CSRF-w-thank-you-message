@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', 'pagescontroller@home')->name('index');
-Route::get('/about', 'pagescontroller@about')->name('about');
-Route::get('/contact', 'pagescontroller@contact')->name('contact');
-Route::post('/contact', 'pagescontroller@store')->name('contact.store');
-Route::get('/thanks:{name}', 'pagescontroller@thanks')->name('thanks');
+Route::get('/', 'PagesController@home')->name('index');
+Route::get('/about', 'PagesController@about')->name('about');
+Route::get('/contact', 'PagesController@contact')->name('contact');
+Route::post('/contact', 'PagesController@store')->name('contact.store');
+Route::get('/thanks:{name}', 'PagesController@thanks')->name('thanks');
